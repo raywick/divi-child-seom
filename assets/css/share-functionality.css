@@ -1,0 +1,205 @@
+#page-container{padding-top:0!important}
+
+.et_pb_section_share.et_pb_section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: RGBA(255,255,255,0)!important;
+}
+.et_pb_section_share {
+    min-height: 90vh;
+    z-index: 999;
+    position: fixed!important;
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%) translateY(-50%);
+    display: none;
+}
+.et_pb_row_share.et_pb_row {
+    padding-top: 10px!important;
+    padding-right: 20px!important;
+    padding-left: 20px!important;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.et_pb_row_share {
+    min-height: 85vh;
+}
+.et_pb_column_share {
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+    margin: auto;
+}
+.et_pb_icon_close_share {
+    margin-bottom: 0px!important;
+    margin-left: 90%!important;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 0;
+}
+.et_pb_icon_close_share .et_pb_icon_wrap .et-pb-icon {
+    transition: color 300ms ease 0ms;
+    font-family: FontAwesome!important;
+    font-weight: 900!important;
+    color: #282828;
+    font-size: 30px;
+}
+.et_pb_text_share.et_pb_module {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.et_pb_text_share.et_pb_text {
+    color: #282828!important;
+}
+.et_pb_text_share {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: -15px!important;
+    max-width: 50%;
+}
+
+.et_pb_button_facebook_wrapper .et_pb_button_facebook, .et_pb_button_facebook_wrapper .et_pb_button_facebook:hover, .et_pb_button_linkedin_wrapper .et_pb_button_linkedin, .et_pb_button_linkedin_wrapper .et_pb_button_linkedin:hover, .et_pb_button_twitter_wrapper .et_pb_button_twitter, .et_pb_button_twitter_wrapper .et_pb_button_twitter:hover, .et_pb_button_whatsapp_wrapper .et_pb_button_whatsapp, .et_pb_button_whatsapp_wrapper .et_pb_button_whatsapp:hover, .et_pb_button_telegram_wrapper .et_pb_button_telegram, .et_pb_button_telegram_wrapper .et_pb_button_telegram:hover, .et_pb_button_email_wrapper .et_pb_button_email, .et_pb_button_email_wrapper .et_pb_button_email:hover, .et_pb_button_copylink_wrapper .et_pb_button_copylink, .et_pb_button_copylink_wrapper .et_pb_button_copylink:hover {
+    padding-top: 10px!important;
+}
+.et_pb_section_share .et_pb_button_facebook:before, .et_pb_section_share .et_pb_button_linkedin:before, .et_pb_section_share .et_pb_button_twitter:before, .et_pb_section_share .et_pb_button_whatsapp:before, .et_pb_section_share .et_pb_button_telegram:before, .et_pb_section_share .et_pb_button_email:before, .et_pb_section_share .et_pb_button_copylink:before {
+    content: attr(data-icon);
+    font-family: ETmodules!important;
+    font-weight: 400!important;
+    color: #FFFFFF;
+    line-height: inherit;
+    font-size: inherit!important;
+    opacity: 1;
+    margin-left: -1.3em;
+    right: auto;
+    display: inline-block;
+    font-family: ETmodules!important;
+    font-weight: 400!important;
+}
+
+.et_pb_section_share .et_pb_button_facebook:after, .et_pb_section_share .et_pb_button_linkedin:after, .et_pb_section_share .et_pb_button_twitter:after, .et_pb_button_whatsapp:after, .et_pb_section_share .et_pb_button_telegram:after, .et_pb_section_share .et_pb_button_email:after, .et_pb_section_share .et_pb_button_copylink:after {
+    display: none;
+}
+
+.et_pb_button_facebook {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-color: #4267b2;
+}
+.et_pb_button_facebook {
+    transition: background-color 300ms ease 0ms,border 300ms ease 0ms;
+    width: 100%;
+    animation: none;
+}
+.et_pb_button_facebook:hover {
+    border-width:0px!important;
+    background-image:initial !important;
+    background-color:#4267b2 !important
+}
+
+.et_pb_button_linkedin_wrapper {
+    margin-top: 25px!important;
+}
+.et_pb_button_linkedin {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-color: #0077b5;
+}
+.et_pb_button_linkedin, .et_pb_button_twitter, .et_pb_button_whatsapp, .et_pb_button_telegram, .et_pb_button_email, .et_pb_button_copylink {
+    transition: background-color 300ms ease 0ms;
+    width: 100%;
+}
+
+.et_pb_section_share .et_pb_button_linkedin:hover {
+    background-image: initial;
+    background-color: #0077b5;
+}
+
+.et_pb_section_share .et_pb_button_twitter {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-color: #1da1f2;
+}
+
+.et_pb_section_share .et_pb_button_twitter:hover {
+    background-image: initial;
+    background-color: #1da1f2;
+}
+
+.et_pb_section_share .et_pb_button_whatsapp {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-image: linear-gradient(135deg,#25d366 0%,#075e54 100%);
+}
+.et_pb_section_share .et_pb_button_whatsapp:hover {
+    background-image: initial;
+    background-color: #075e54;
+}
+
+.et_pb_section_share .et_pb_button_telegram {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-color: #2aabee;
+}
+
+.et_pb_section_share .et_pb_button_telegram:hover {
+    background-image: initial;
+    background-color: #2aabee;
+}
+
+.et_pb_section_share .et_pb_button_email {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-color: #ff3232;
+}
+
+.et_pb_section_share .et_pb_button_email:hover {
+    background-image: initial;
+    background-color: #ff3232;
+}
+
+.et_pb_section_share .et_pb_button_copylink {
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-right: 0.7em;
+    padding-left: 2em;
+    background-color: #000000;
+}
+
+.et_pb_section_share .et_pb_button_copylink:hover {
+    background-image: initial;
+    background-color: #000000;
+}
